@@ -19,17 +19,17 @@ n.hyde.v <-seq(1:length(hyde.words.v))
 hyde.v <-which(hyde.words.v=="hyde")
 hyde.count.v <-rep(NA,length(n.hyde.v))
 hyde.count.v[hyde.v] <-1
-plot(hyde.count.v, main="Dispersion Plot of 'hyde' in The Strange Case of Dr. Jekyll and Mr. Hyde",
-     xlab="Novel Time", ylab="hyde", type="h", ylim=c(0,1), yaxt='n')
+plot(hyde.count.v, main="Dispersion Plot of 'Hyde' in The Strange Case of Dr. Jekyll and Mr. Hyde",
+     xlab="Novel Time", ylab="Hyde", type="h", ylim=c(0,1), yaxt='n')
 #utterson dispersion plot
 utterson.v <-which(hyde.words.v=="utterson")
 utterson.count.v <-rep(NA,length(n.hyde.v))
 utterson.count.v[utterson.v] <-1
-plot(utterson.count.v, main="Dispersion Plot of 'utterson' in The Strange Case of Dr. Jekyll and Mr. Hyde",
-     xlab="Novel Time", ylab="utterson", type="h", ylim=c(0,1), yaxt='n')
+plot(utterson.count.v, main="Dispersion Plot of 'Utterson' in The Strange Case of Dr. Jekyll and Mr. Hyde",
+     xlab="Novel Time", ylab="Utterson", type="h", ylim=c(0,1), yaxt='n')
 #jekyll dispersion plot
 jekyll.v <-which(hyde.words.v=="jekyll")
 jekyll.count.v <-rep(NA,length(n.hyde.v))
 jekyll.count.v[jekyll.v] <-1
-plot(jekyll.count.v, main="Dispersion Plot of 'jekyll' in The Strange Case of Dr. Jekyll and Mr. Hyde",
-     xlab="Novel Time", ylab="jekyll", type="h", ylim=c(0,1), yaxt='n')
+plot(jekyll.count.v, main="Dispersion Plot of 'Jekyll' in The Strange Case of Dr. Jekyll and Mr. Hyde",
+     xlab="Novel Time", ylab="Jekyll", type="h", ylim=c(0,1), yaxt='n')
