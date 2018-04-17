@@ -1,20 +1,20 @@
-0	0.1321	struck visitor plainly entry furnished dressed grown grew clearly able 
-1	0.1542	city night wind wish moon interest manner hand relief paused 
-2	0.08377	several lying filled papers may greater tea lock table chemical 
-3	0.07307	die doctor pleasures tempted days cast better guilty moral conscience 
-4	0.09023	whatever cry master’s together seems mask drug courage master much 
-5	0.11398	she her maid seen fog broken woman cab victim nearly 
-6	0.08802	many done often secrets liked others penitence instant glad clear 
-7	0.11714	guest clerk scarce odd kept danvers remark backward ordinary locked 
-8	0.07521	evil drug pangs death glass soul spirit myself countenance divided 
-9	0.96682	you said utterson lawyer this poole your sir there what 
-10	0.05598	cheque name gentleman stick next family carried good bank pounds 
-11	0.17333	street enfield court by-street way corner nothing smile walked another 
-12	0.04331	has sense future among start nor supply wonderful loathed finally 
-13	0.10416	edward another clothes wonder late how point original stature second 
-14	0.06823	awhile still gallows inexplicable remember presses visitor impression description drew 
-15	4.35523	the and was that his had with but for him 
-16	0.18002	lanyon shall now should slept private safe lanyon’s received envelope 
-17	0.06009	thus both direction deeply because learned incongruous wholly scientific knowledge 
-18	0.11119	drawer aware lanyon understood colleague work phial reason some powders 
-19	0.10724	fled draught foot poole fro ecstasy thence awoke hell insensibility 
+0	0.13184	master drug hence another bring write original ebullition mask 
+1	0.06833	mere hitherto learn delay supply wonderful doom miracle narrative 
+2	0.12393	cannot reflected doubt distress respect lost beg pedant topic 
+3	0.79016	utterson said mr lawyer sir poole well see like 
+4	0.11511	street figure city morning clock fog darkness seem child 
+5	0.06863	memory secret return past things gallows happily tragic conduct 
+6	0.01909	d e r w h b zilocblob yilocblob milocblob 
+7	0.10292	pleasures die days moral months draught tempted consciousness cast 
+8	0.06366	evil beyond pangs spirit edward countenance sensations less virtue 
+9	0.1599	along relief conscious asked weeping play ah bear moon 
+10	0.11013	cheque child name soon feel bank pounds credit scarce 
+11	0.09528	many woman cab cannot harry may home profound shaken 
+12	0.13065	guest clerk disappearance safe knew mad news rather locked 
+13	0.0756	book cabinet lock several filled locksmith fail tea chemical 
+14	0.09963	slept hours divided horror steps closer affected creature worst 
+15	0.08547	maid foot stick seen broke victim carried girl broken 
+16	0.10629	edward hyde power vain second light well woke recognised 
+17	1.61686	jekyll hyde upon would man could one life even 
+18	0.1294	letter drawer curiosity hand read may paper reason colleague 
+19	0.1016	followed visitor sight cannot melted l open hear o 
