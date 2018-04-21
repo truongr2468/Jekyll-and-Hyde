@@ -12,8 +12,11 @@
 </div>
 
 <div id="NLTK500" class="tabcontent">
+
   <p>For these dispersion plots, I used the NLTK stopwords list and split the text into chunks of 500 words.</p>
-  <h1>Topic 0</h1>
+
+
+    <h1>Topic 0</h1>
   <img src="R-Files/Final/R-Plots/Topic0.png">
   <h2>List of Words in Topic 0</h2>
   <ul>
@@ -49,33 +52,17 @@
 <div id="Compare" class="tabcontent">
   <p>Use this tab to compare between different dispersion plots.</p>
 
-    <label>Choose a NLTK 500 word graph:</label>
-    <select name="wordsgraph" onchange="java_script_:show(this.options[this.selectedIndex].value)">
-    <option value="Topic 0">Topic 0</option>
-    <option value="Topic 1">Topic 1</option>
-    <option value="Topic 2">Topic 2</option>
-  </select>
-
-  <div id="hidden" style="display:inline-block">
-    <img src="R-Files/Final/R-Plots/Topic0.png">
-  </div>
-
-  <div id="secret" style="display:none">
-    <img src="R-Files/Final/R-Plots/Topic1.png">
-  </div>
-
-  <div id="huh" style="display:none">
-    <img src="R-Files/Final/R-Plots/Topic2.png">
-  </div>
-
-  <label>Choose a NLTK 250 word graph:</label>
-  <select name="wordsgraph" onchange="java_script_:show(this.options[this.selectedIndex].value)">
-  <option value="Topic 0">Topic 0</option>
-  <option value="Topic 1">Topic 1</option>
-  <option value="Topic 2">Topic 2</option>
+  <select id="n500select" onchange="nltk500()">
+<option value="Topic 0">Topic 0
+<option value="Topic 1">Topic 1
+<option value="Topic 2">Topic 2
+<option value="Topic 3">Topic 3
 </select>
+
+<img id="x" src="R-Files/Final/R-Plots/Topic0.png"></img>
 
 </div>
 
 <script src="jekyll.js"></script>
+
 </body>

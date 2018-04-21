@@ -1,3 +1,5 @@
+
+
 function openwords(evt, words) {
     var i, tabcontent, tablinks;
     tabcontent = document.getElementsByClassName("tabcontent");
@@ -16,24 +18,16 @@ function openwords(evt, words) {
 
 document.getElementById("defaultOpen").click();
 
-function show(graph) {
-    if (graph == "Topic 0") {
-    hidden.style.display='inline-block';
-        secret.style.display='none';
-    huh.style.display='none';
+function nltk500 () {
+    var x = document.createElement("IMG")
+    if(document.getElementById('n500select').value == "Topic 0") {
+document.getElementById("x").src="R-Files/Final/R-Plots/Topic0.png";
     }
-    else if (graph == "Topic 1") {
-    secret.style.display='inline-block';
-        hidden.style.display='none';
-    huh.style.display='none';
-
+    else if(document.getElementById('n500select').value == "Topic 1") {
+      document.getElementById("x").src="R-Files/Final/R-Plots/Topic1.png";
     }
-    else if (graph == "Topic 2") {
-    huh.style.display='inline-block';
-    hidden.style.display='none';
-    secret.style.display='none';
-
+    else if(document.getElementById('n500select').value == "Topic 2") {
+      document.getElementById("x").src="R-Files/Final/R-Plots/Topic2.png";
     }
-
-
-  }
+    document.body.appendChild(x);
+}
