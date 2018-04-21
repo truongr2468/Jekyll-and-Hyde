@@ -45,3 +45,33 @@ topic.one.v <-c(city.v, ten.v, corner.v, along.v, bystreet.v, interest.v, sounds
 one.count.v <-rep(NA,length(n.time.v))
 one.count.v[topic.one.v] <- 1
 plot(one.count.v, main="Dispersion plot of Topic 1 in Jekyll and Hyde", xlab="Novel Time", ylab="Topic 1", type="h", ylim=c(0,1), yaxt='n')
+##Create Plot for Topic 2##
+said.v <-which(hyde.words.v == "said")
+utterson.v <-which(hyde.words.v == "utterson")
+man.v <-which(hyde.words.v == "man")
+one.v <-which(hyde.words.v == "one")
+jekyll.v <-which(hyde.words.v == "jekyll")
+hyde.v <-which(hyde.words.v == "hyde")
+lawyer.v <-which(hyde.words.v == "lawyer")
+upon.v <-which(hyde.words.v == "upon")
+like.v <-which(hyde.words.v == "like")
+would.v <-which(hyde.words.v == "would")
+topic.two.v <-c(said.v, utterson.v, man.v, one.v, jekyll.v, hyde.v, lawyer.v, upon.v, like.v, would.v)
+two.count.v <-rep(NA,length(n.time.v))
+two.count.v[topic.two.v] <- 1
+plot(two.count.v, main="Dispersion plot of Topic 2 in Jekyll and Hyde", xlab="Novel Time", ylab="Topic 2", type="h", ylim=c(0,1), yaxt='n')
+##Create Plot for Topic 3##
+maid.v <-which(hyde.words.v == "maid")
+victim.v <-which(hyde.words.v == "victim")
+heavy.v <-which(hyde.words.v == "heavy")
+stick.v <-which(hyde.words.v == "stick")
+lane.v <-which(hyde.words.v == "lane")
+gentleman.v <-which(hyde.words.v == "gentleman")
+body.v <-which(hyde.words.v == "body")
+seen.v <-which(hyde.words.v == "seen")
+broken.v <-which(hyde.words.v == "broken")
+particularly.v <-which(hyde.words.v == "particularly")
+topic.three.v <-c(maid.v, victim.v, heavy.v, stick.v, lane.v, gentleman.v, body.v, seen.v, broken.v, particularly.v)
+three.count.v <-rep(NA,length(n.time.v))
+three.count.v[topic.three.v] <- 1
+plot(three.count.v, main="Dispersion plot of Topic 3 in Jekyll and Hyde", xlab="Novel Time", ylab="Topic 3", type="h", ylim=c(0,1), yaxt='n')
