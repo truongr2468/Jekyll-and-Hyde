@@ -10,6 +10,30 @@ function openwords(evt, words) {
     }
     document.getElementById(words).style.display = "block";
     evt.currentTarget.className += " active";
+
+
 }
 
 document.getElementById("defaultOpen").click();
+
+function show(graph) {
+    if (graph == "Topic 0") {
+    hidden.style.display='inline-block';
+        secret.style.display='none';
+    huh.style.display='none';
+    }
+    else if (graph == "Topic 1") {
+    secret.style.display='inline-block';
+        hidden.style.display='none';
+    huh.style.display='none';
+
+    }
+    else if (graph == "Topic 2") {
+    huh.style.display='inline-block';
+    hidden.style.display='none';
+    secret.style.display='none';
+
+    }
+
+
+  }

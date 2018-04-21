@@ -7,6 +7,8 @@
   <button class="tablinks" onclick="openwords(event, 'NLTK250')">NLTK 250 Words</button>
   <button class="tablinks" onclick="openwords(event, 'Princeton500')">Princeton 500 Words</button>
   <button class="tablinks" onclick="openwords(event, 'Princeton250')">Princeton 250 Words</button>
+  <button class="tablinks" onclick="openwords(event, 'Compare')">Compare Plots</button>
+
 </div>
 
 <div id="NLTK500" class="tabcontent">
@@ -42,6 +44,37 @@
 
 <div id="Princeton250" class="tabcontent">
   <p>For these dispersion plots, I used the Princeton stopwords list and split the text into chunks of 250 words.</p>
+</div>
+
+<div id="Compare" class="tabcontent">
+  <p>Use this tab to compare between different dispersion plots.</p>
+
+    <label>Choose a NLTK 500 word graph:</label>
+    <select name="wordsgraph" onchange="java_script_:show(this.options[this.selectedIndex].value)">
+    <option value="Topic 0">Topic 0</option>
+    <option value="Topic 1">Topic 1</option>
+    <option value="Topic 2">Topic 2</option>
+  </select>
+
+  <div id="hidden" style="display:inline-block">
+    <img src="R-Files/Final/R-Plots/Topic0.png">
+  </div>
+
+  <div id="secret" style="display:none">
+    <img src="R-Files/Final/R-Plots/Topic1.png">
+  </div>
+
+  <div id="huh" style="display:none">
+    <img src="R-Files/Final/R-Plots/Topic2.png">
+  </div>
+
+  <label>Choose a NLTK 250 word graph:</label>
+  <select name="wordsgraph" onchange="java_script_:show(this.options[this.selectedIndex].value)">
+  <option value="Topic 0">Topic 0</option>
+  <option value="Topic 1">Topic 1</option>
+  <option value="Topic 2">Topic 2</option>
+</select>
+
 </div>
 
 <script src="jekyll.js"></script>
