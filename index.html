@@ -1,1 +1,29 @@
-<h1>Hello world!</h1>
+<head>
+  <link rel="stylesheet" type="text/css" href="hyde.css">
+</head>
+<body>
+  <div class="tab">
+  <button class="tablinks" onclick="openwords(event, 'NLTK500')" id="defaultOpen">NLTK 500 Words</button>
+  <button class="tablinks" onclick="openwords(event, 'NLTK250')">NLTK 250 Words</button>
+  <button class="tablinks" onclick="openwords(event, 'Princeton500')">Princeton 500 Words</button>
+  <button class="tablinks" onclick="openwords(event, 'Princeton250')">Princeton 250 Words</button>
+</div>
+
+<div id="NLTK500" class="tabcontent">
+  <p>For these dispersion plots, I used the NLTK stopwords list and split the text into chunks of 500 words.</p>
+</div>
+
+<div id="NLTK250" class="tabcontent">
+  <p>For these dispersion plots, I used the NLTK stopwords list and split the text into chunks of 250 words.</p>
+</div>
+
+<div id="Princeton500" class="tabcontent">
+  <p>For these dispersion plots, I used the Princeton stopwords list and split the text into chunks of 500 words.</p>
+</div>
+
+<div id="Princeton250" class="tabcontent">
+  <p>For these dispersion plots, I used the Princeton stopwords list and split the text into chunks of 250 words.</p>
+</div>
+
+<script src="jekyll.js"></script>
+</body>
