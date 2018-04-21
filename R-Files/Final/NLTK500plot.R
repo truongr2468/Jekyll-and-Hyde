@@ -1,3 +1,4 @@
+##Prepare the Document for Analysis##
 setwd ("~/Documents/GitHub/Jekyll-and-Hyde/")
 text.v <- scan("edwardh.txt", what="character", sep="\n")
 start.v <-which(text.v == "STORY OF THE DOOR")
@@ -13,7 +14,6 @@ hyde.words.v <- unlist(hyde.words.1)
 not.blanks.v <- which(hyde.words.v!="")
 hyde.words.v <- hyde.words.v[not.blanks.v]
 hyde.freqs.t <-table(hyde.words.v)
-sorted.hyde.freqs.t <- sort(hyde.freqs.t, decreasing=TRUE)
 n.time.v <-seq(1:length(hyde.words.v))
 ##Create Plot for Topic 0##
 letter.v <-which(hyde.words.v == "letter")
