@@ -1,20 +1,20 @@
-0	0.09302	maid victim god stick broken wicked broke lane crime 
-1	0.16464	poole master voice cabinet door ay god butler laboratory 
-2	1.35069	a jekyll hyde s hand good face door thought 
-3	0.55599	i edward hyde began life day man evil made 
-4	0.10708	men follow subject long memory nature stature conceived hair 
-5	0.10115	woman impossible fog yard women companion showed dingy shop 
-6	0.12735	laid sight sleep pale s high bring service renewed 
-7	0.1271	drawer visitor understood powders colleague curiosity square rose possibility 
-8	0.17113	street enfield walked address sunday swiftly city child clock 
-9	0.08463	pleasures cast happily original die study liberty point men 
-10	0.02524	d a e h r w b zilocblob yilocblob 
-11	0.08666	spirit countenance pangs drug horror divided suppose drank human 
-12	0.16717	guest scarce clerk note great remark deal quaint inquired 
-13	0.1066	cheque family child garden bank pounds black story stone 
-14	0.66035	a i utterson mr s lawyer sir man dr 
-15	0.1345	theatre lock clothes filled empty marked work glazed tea 
-16	0.21253	lanyon friend poole hands letter read paper fear day 
-17	0.09918	lanyon days return past influence glad clear secrets sit 
-18	0.08695	terror draught experiment play letters suicide weakness shape bed 
-19	0.07824	moral tempted consciousness direction side incongruous scientific learn knowledge 
+0	0.03616	letter doctor burned client friend’s handed escape judge swear news 
+1	0.099	ten city along two face mind minutes sounds by-street moon 
+2	1.54742	utterson said one man lawyer jekyll upon hyde would like 
+3	0.06237	maid stick victim heavy presently officer lane body seen particularly 
+4	0.06798	guest clerk sir document note death danvers safe time quality 
+5	0.11449	life began die evil months two thus conscience pleasures moral 
+6	0.05709	visitor curiosity instant ordinary idea gentleman screamed prodigy acuteness greater 
+7	0.06184	liked secrets ill chief many friendship influence others terrors wrote 
+8	0.07319	horror evil less life countenance pangs drug creature hours beyond 
+9	0.1253	poole sir voice butler cried that’s seems said servant there’s 
+10	0.063	drawer letter contents midnight rose powders fail colleague sheet covered 
+11	0.03227	fog street woman lamps seen shop many inspector brown glow 
+12	0.03173	draught fallen heart supply wonderful loathed finally ecstasy love throes 
+13	0.09065	clothes cabinet several times theatre lying half turned body lay 
+14	0.06661	hyde jekyll edward cast soho power body double thus vain 
+15	0.0716	smiled study gallows pleasures enter moved chanced common object let 
+16	0.07613	enfield cheque it’s family court really windows pounds child’s point 
+17	0.04842	new throw courage hold death foot suddenly far last long 
+18	0.07373	fled break cause lanyon cab reflected beg pedant spirit private 
+19	0.04977	enfield lawyer’s forth disappearance private set eagerness denied behold shock 
