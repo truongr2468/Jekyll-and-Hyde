@@ -75,3 +75,18 @@ topic.three.v <-c(maid.v, victim.v, heavy.v, stick.v, lane.v, gentleman.v, body.
 three.count.v <-rep(NA,length(n.time.v))
 three.count.v[topic.three.v] <- 1
 plot(three.count.v, main="Dispersion plot of Topic 3 in Jekyll and Hyde", xlab="Novel Time", ylab="Topic 3", type="h", ylim=c(0,1), yaxt='n')
+##Create Plot for Topic 4##
+guest.v <-which(hyde.words.v == "guest")
+clerk.v <-which(hyde.words.v == "clerk")
+document.v <-which(hyde.words.v == "document")
+death.v <-which(hyde.words.v == "death")
+sir.v <-which(hyde.words.v == "sir")
+note.v <-which(hyde.words.v == "note")
+tempted.v <-which(hyde.words.v == "tempted")
+autograph.v <-which(hyde.words.v == "autograph")
+public.v <-which(hyde.words.v == "public")
+handwriting.v <-which(hyde.words.v == "handwriting")
+topic.four.v <-c(guest.v, clerk.v, document.v, death.v, sir.v, note.v, tempted.v, autograph.v, public.v, handwriting.v)
+four.count.v <-rep(NA,length(n.time.v))
+four.count.v[topic.four.v] <- 1
+plot(four.count.v, main="Dispersion plot of Topic 4 in Jekyll and Hyde", xlab="Novel Time", ylab="Topic 4", type="h", ylim=c(0,1), yaxt='n')
