@@ -1,4 +1,4 @@
-
+//tabs//
 
 function openwords(evt, words) {
     var i, tabcontent, tablinks;
@@ -18,6 +18,8 @@ function openwords(evt, words) {
 
 document.getElementById("defaultOpen").click();
 
+//NLTK 500 Plot//
+
 function nltk500 () {
     var x = document.createElement("IMG")
     if(document.getElementById('n500select').value == "Topic 0") {
@@ -35,8 +37,28 @@ document.getElementById("x").src="R-Files/Final/R-Plots/NLTK500/Topic0.png";
     else if(document.getElementById('n500select').value == "Topic 4") {
       document.getElementById("x").src="R-Files/Final/R-Plots/NLTK500/Topic4.png";
     }
+    else if(document.getElementById('n500select').value == "Topic 5") {
+      document.getElementById("x").src="R-Files/Final/R-Plots/NLTK500/Topic5.png";
+    }
+    else if(document.getElementById('n500select').value == "Topic 6") {
+      document.getElementById("x").src="R-Files/Final/R-Plots/NLTK500/Topic6.png";
+    }
+    else if(document.getElementById('n500select').value == "Topic 7") {
+      document.getElementById("x").src="R-Files/Final/R-Plots/NLTK500/Topic7.png";
+    }
+    else if(document.getElementById('n500select').value == "Topic 8") {
+      document.getElementById("x").src="R-Files/Final/R-Plots/NLTK500/Topic8.png";
+    }
+    else if(document.getElementById('n500select').value == "Topic 9") {
+      document.getElementById("x").src="R-Files/Final/R-Plots/NLTK500/Topic9.png";
+    }
+    else if(document.getElementById('n500select').value == "Topic 10") {
+      document.getElementById("x").src="R-Files/Final/R-Plots/NLTK500/Topic10.png";
+    }
     document.body.appendChild(x);
 }
+
+//NLTK 250 Plot//
 
 function nltk250 () {
     var y = document.createElement("IMG")
