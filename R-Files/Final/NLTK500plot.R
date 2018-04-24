@@ -191,3 +191,115 @@ topic.ten.v <-c(drawer.v, letter.v, book.v, understood.v, colleague.v, midnight.
 ten.count.v <-rep(NA,length(n.time.v))
 ten.count.v[topic.ten.v] <- 1
 plot(ten.count.v, main="Dispersion plot of Topic 10 in Jekyll and Hyde", xlab="Novel Time", ylab="Topic 10", type="h", ylim=c(0,1), yaxt='n')
+
+##Create Plot for Topic 11##
+street.v <-which(hyde.words.v == "street")
+woman.v <-which(hyde.words.v == "woman")
+fog.v <-which(hyde.words.v == "fog")
+seen.v <-which(hyde.words.v == "seen")
+shop.v <-which(hyde.words.v == "shop")
+many.v <-which(hyde.words.v == "many")
+brown.v <-which(hyde.words.v == "brown")
+cab.v <-which(hyde.words.v == "cab")
+latter.v <-which(hyde.words.v == "latter")
+lamps.v <-which(hyde.words.v == "lamps")
+topic.eleven.v <-c(street.v, woman.v, fog.v, seen.v, shop.v, many.v, brown.v, cab.v, latter.v, lamps.v)
+eleven.count.v <-rep(NA,length(n.time.v))
+eleven.count.v[topic.eleven.v] <- 1
+plot(eleven.count.v, main="Dispersion plot of Topic 11 in Jekyll and Hyde", xlab="Novel Time", ylab="Topic 11", type="h", ylim=c(0,1), yaxt='n')
+
+##Create Plot for Topic 12##
+draught.v <-which(hyde.words.v == "draught")
+supply.v <-which(hyde.words.v == "supply")
+wonderful.v <-which(hyde.words.v == "wonderful")
+loathed.v <-which(hyde.words.v == "loathed")
+finally.v <-which(hyde.words.v == "finally")
+ecstasy.v <-which(hyde.words.v == "ecstasy")
+love.v <-which(hyde.words.v == "love")
+fall.v <-which(hyde.words.v == "fall")
+days.v <-which(hyde.words.v == "days")
+fallen.v <-which(hyde.words.v == "fallen")
+topic.ten.v <-c(draught.v, supply.v, wonderful.v, loathed.v, finally.v, ecstasy.v, love.v, fall.v, days.v, fallen.v)
+twelve.count.v <-rep(NA,length(n.time.v))
+twelve.count.v[topic.twelve.v] <- 1
+plot(twelve.count.v, main="Dispersion plot of Topic 12 in Jekyll and Hyde", xlab="Novel Time", ylab="Topic 12", type="h", ylim=c(0,1), yaxt='n')
+
+##Create Plot for Topic 13##
+door.v <-which(hyde.words.v == "door")
+several.v <-which(hyde.words.v == "several")
+times.v <-which(hyde.words.v == "times")
+turned.v <-which(hyde.words.v == "turned")
+theatre.v <-which(hyde.words.v == "theatre")
+cabinet.v <-which(hyde.words.v == "cabinet")
+may.v <-which(hyde.words.v == "may")
+body.v <-which(hyde.words.v == "body")
+lying.v <-which(hyde.words.v == "lying")
+clothes.v <-which(hyde.words.v == "clothes")
+topic.thirteen.v <-c(door.v, several.v, times.v, turned.v, theatre.v, cabinet.v, may.v, body.v, lying.v, clothes.v)
+thirteen.count.v <-rep(NA,length(n.time.v))
+thirteen.count.v[topic.thirteen.v] <- 1
+plot(thirteen.count.v, main="Dispersion plot of Topic 13 in Jekyll and Hyde", xlab="Novel Time", ylab="Topic 13", type="h", ylim=c(0,1), yaxt='n')
+
+##Create Plot for Topic 14##
+hyde.v <-which(hyde.words.v == "hyde")
+edward.v <-which(hyde.words.v == "edward")
+jekyll.v <-which(hyde.words.v == "jekyll")
+cast.v <-which(hyde.words.v == "cast")
+double.v <-which(hyde.words.v == "double")
+terror.v <-which(hyde.words.v == "terror")
+soho.v <-which(hyde.words.v == "soho")
+body.v <-which(hyde.words.v == "body")
+still.v <-which(hyde.words.v == "still")
+vain.v <-which(hyde.words.v == "vain")
+topic.fourteen.v <-c(door.v, several.v, times.v, turned.v, theatre.v, cabinet.v, may.v, body.v, lying.v, clothes.v)
+fourteen.count.v <-rep(NA,length(n.time.v))
+fourteen.count.v[topic.fourteen.v] <- 1
+plot(fourteen.count.v, main="Dispersion plot of Topic 14 in Jekyll and Hyde", xlab="Novel Time", ylab="Topic 14", type="h", ylim=c(0,1), yaxt='n')
+
+##Create Plot for Topic 15##
+clothes.v <-which(hyde.words.v == "clothes")
+enter.v <-which(hyde.words.v == "enter")
+smiled.v <-which(hyde.words.v == "smiled")
+lighted.v <-which(hyde.words.v == "lighted")
+gallows.v <-which(hyde.words.v == "gallows")
+conceal.v <-which(hyde.words.v == "conceal")
+chattering.v <-which(hyde.words.v == "chattering")
+fury.v <-which(hyde.words.v == "fury")
+boldness.v <-which(hyde.words.v == "boldness")
+closed.v <-which(hyde.words.v == "closed")
+topic.fifteen.v <-c(door.v, several.v, times.v, turned.v, theatre.v, cabinet.v, may.v, body.v, lying.v, clothes.v)
+fifteen.count.v <-rep(NA,length(n.time.v))
+fifteen.count.v[topic.fifteen.v] <- 1
+plot(fifteen.count.v, main="Dispersion plot of Topic 15 in Jekyll and Hyde", xlab="Novel Time", ylab="Topic 15", type="h", ylim=c(0,1), yaxt='n')
+
+##Create Plot for Topic 16##
+enfield.v <-which(hyde.words.v == "clothes")
+cheque.v <-which(hyde.words.v == "enter")
+family.v <-which(hyde.words.v == "smiled")
+court.v <-which(hyde.words.v == "court")
+really.v <-which(hyde.words.v == "really")
+windows.v <-which(hyde.words.v == "windows")
+its.v <-which(hyde.words.v == "it's")
+childs.v <-which(hyde.words.v == "child's")
+point.v <-which(hyde.words.v == "point")
+best.v <-which(hyde.words.v == "best")
+topic.sixteen.v <-c(enfield.v, cheque.v, family.v, court.v, really.v, windows.v, its.v, childs.v, point.v, best.v)
+sixteen.count.v <-rep(NA,length(n.time.v))
+sixteen.count.v[topic.sixteen.v] <- 1
+plot(sixteen.count.v, main="Dispersion plot of Topic 16 in Jekyll and Hyde", xlab="Novel Time", ylab="Topic 16", type="h", ylim=c(0,1), yaxt='n')
+
+##Create Plot for Topic 17##
+suddenly.v <-which(hyde.words.v == "clothes")
+death.v <-which(hyde.words.v == "enter")
+throw.v <-which(hyde.words.v == "smiled")
+hold.v <-which(hyde.words.v == "court")
+heard.v <-which(hyde.words.v == "really")
+sort.v <-which(hyde.words.v == "windows")
+far.v <-which(hyde.words.v == "it's")
+knew.v <-which(hyde.words.v == "child's")
+true.v <-which(hyde.words.v == "point")
+freshness.v <-which(hyde.words.v == "best")
+topic.seventeen.v <-c(enfield.v, cheque.v, family.v, court.v, really.v, windows.v, its.v, childs.v, point.v, best.v)
+seventeen.count.v <-rep(NA,length(n.time.v))
+seventeen.count.v[topic.seventeen.v] <- 1
+plot(seventeen.count.v, main="Dispersion plot of Topic 17 in Jekyll and Hyde", xlab="Novel Time", ylab="Topic 17", type="h", ylim=c(0,1), yaxt='n')
