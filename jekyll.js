@@ -89,7 +89,7 @@ document.getElementById("x").src="R-Files/Final/R-Plots/NLTK500/Topic0.png";
 
 function nltk250 () {
     var y = document.createElement("IMG")
-    if(document.getElementById('n250select').value == "Topic 0") {
+    if(document.getElementById('n500select').value == "Topic 0") {
 document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic0.png";
     }
     else if(document.getElementById('n250select').value == "Topic 1") {
@@ -97,6 +97,57 @@ document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic0.png";
     }
     else if(document.getElementById('n250select').value == "Topic 2") {
       document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic2.png";
+    }
+    else if(document.getElementById('n250select').value == "Topic 3") {
+      document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic3.png";
+    }
+    else if(document.getElementById('n250select').value == "Topic 4") {
+      document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic4.png";
+    }
+    else if(document.getElementById('n250select').value == "Topic 5") {
+      document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic5.png";
+    }
+    else if(document.getElementById('n250select').value == "Topic 6") {
+      document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic6.png";
+    }
+    else if(document.getElementById('n250select').value == "Topic 7") {
+      document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic7.png";
+    }
+    else if(document.getElementById('n250select').value == "Topic 8") {
+      document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic8.png";
+    }
+    else if(document.getElementById('n250select').value == "Topic 9") {
+      document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic9.png";
+    }
+    else if(document.getElementById('n250select').value == "Topic 10") {
+      document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic10.png";
+    }
+    else if(document.getElementById('n250select').value == "Topic 11") {
+      document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic11.png";
+    }
+    else if(document.getElementById('n250select').value == "Topic 12") {
+      document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic11.png";
+    }
+    else if(document.getElementById('n250select').value == "Topic 13") {
+      document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic13.png";
+    }
+    else if(document.getElementById('n250select').value == "Topic 14") {
+      document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic14.png";
+    }
+    else if(document.getElementById('n250select').value == "Topic 15") {
+      document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic15.png";
+    }
+    else if(document.getElementById('n250select').value == "Topic 16") {
+      document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic16.png";
+    }
+    else if(document.getElementById('n250select').value == "Topic 17") {
+      document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic17.png";
+    }
+    else if(document.getElementById('n250select').value == "Topic 18") {
+      document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic18.png";
+    }
+    else if(document.getElementById('n250select').value == "Topic 19") {
+      document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic19.png";
     }
     document.body.appendChild(y);
 }
