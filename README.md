@@ -35,4 +35,4 @@ mv -i edward_* data
 
 9. Run the script
 
-./script.sh
+./NLTKscript500.sh or ./NLTKscript250.sh
