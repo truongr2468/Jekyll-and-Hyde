@@ -81,6 +81,7 @@ document.getElementById("x").src="R-Files/Final/R-Plots/NLTK500/Topic0.png";
     }
     else if(document.getElementById('n500select').value == "Topic 19") {
       document.getElementById("x").src="R-Files/Final/R-Plots/NLTK500/Topic19.png";
+      document.getElementById("xtext").value="what"
     }
     document.body.appendChild(x);
 }
@@ -89,7 +90,7 @@ document.getElementById("x").src="R-Files/Final/R-Plots/NLTK500/Topic0.png";
 
 function nltk250 () {
     var y = document.createElement("IMG")
-    if(document.getElementById('n500select').value == "Topic 0") {
+    if(document.getElementById('n250select').value == "Topic 0") {
 document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic0.png";
     }
     else if(document.getElementById('n250select').value == "Topic 1") {
@@ -150,4 +151,16 @@ document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic0.png";
       document.getElementById("y").src="R-Files/Final/R-Plots/NLTK250/Topic19.png";
     }
     document.body.appendChild(y);
+}
+
+function nltk500txt() {
+    if (document.getElementById("n500select").value == "Topic 0") {
+        document.getElementById("xtext").innerHTML = "Yes";
+    } else if (document.getElementById("n500select").value == "Topic 1") {
+        document.getElementById("xtext").innerHTML = "No";
+    } else if (document.getElementById("n500select").value == "Topic 2") {
+        document.getElementById("xtext").innerHTML = "Maybe.";
+    } else if (document.getElementById("n500select").value == "Topic 3") {
+        document.getElementById("xtext").innerHTML = "So";
+    }
 }

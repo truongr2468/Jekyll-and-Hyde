@@ -1,5 +1,6 @@
 <head>
   <link rel="stylesheet" type="text/css" href="hyde.css">
+
 </head>
 <body>
   <div class="tab">
@@ -52,7 +53,9 @@
 <h2>Analysis</h2>
 <p> These words indicate that some event occurred on a by-street in the city. Involved with this event is noise and a face. Considering that much of the time, characters are reacting to the ugliness of Hyde's face, it can only be assumed that these events include Hyde being strongly involved. As seen in the plot above, such an event occurs twice near the beginning of the novel with some smaller concentrations towards the middle and end. The chunk at the very beginning correlates perfectly with the first portion of the book, in which Mr. Utterson and his kinsman, Mr. Enfield, talk about a mysterious door on one of the by-streets of London. Mr. Enfield here recalls a story relating to that door in which Mr. Hyde attacks a child, then goes through that door and retrieves a check for the parents of the girl in order to pay for the damages done to her. An attack would almost certainly have the elements of noise and Hyde's face, and the fact that it happens on a corner only further indicates that this topic mostly speaks about events strongly involving Hyde.
 
-  <p> The second chunk near the beginning of the novel occurs at the exact point where Utterson decides to stake out the aforementioned door in hopes of meeting Hyde. As indicated by the dark markings, Utterson does succeed. He goes on to describe Hyde's face from there.
+<p> The second chunk near the beginning of the novel occurs at the exact point where Utterson decides to stake out the aforementioned door in hopes of meeting Hyde. As indicated by the dark markings, Utterson does succeed. He goes on to describe Hyde's face from there.
+
+<p> The chunk from the 10,000 word mark matches up with
 
 <hr>
 
@@ -72,11 +75,6 @@
 <li>face
 </ul>
 <h2>Analysis</h2>
-<p> These words indicate that some event occurred on a by-street in the city. Involved with this event is noise and a face. Considering that much of the time, characters are reacting to the ugliness of Hyde's face, it can only be assumed that these events include Hyde being strongly involved. As seen in the plot above, such an event occurs twice near the beginning of the novel with some smaller concentrations towards the middle and end. The chunk at the very beginning correlates perfectly with the first portion of the book, in which Mr. Utterson and his kinsman, Mr. Enfield, talk about a mysterious door on one of the by-streets of London. Mr. Enfield here recalls a story relating to that door in which Mr. Hyde attacks a child, then goes through that door and retrieves a check for the parents of the girl in order to pay for the damages done to her. An attack would almost certainly have the elements of noise and Hyde's face, and the fact that it happens on a corner only further indicates that this topic mostly speaks about events strongly involving Hyde.
-
-<p> The second chunk near the beginning of the novel occurs at the exact point where Utterson decides to stake out the aforementioned door in hopes of meeting Hyde. As indicated by the dark markings, Utterson does succeed. He goes on to describe Hyde's face from there.
-
-<p> The chunk from the 10,000 word mark matches up with
 
 <hr>
 
@@ -89,7 +87,7 @@
 <div id="Compare" class="tabcontent">
   <p>Use this tab to compare between different dispersion plots.</p>
 
-Select a NLTK 500 word chunk plot: <select id="n500select" onchange="nltk500()">
+Select a NLTK 500 word chunk plot: <select id="n500select" onchange="nltk500(); nltk500txt()">
 <option value="Topic 0">Topic 0
 <option value="Topic 1">Topic 1
 <option value="Topic 2">Topic 2
@@ -113,6 +111,7 @@ Select a NLTK 500 word chunk plot: <select id="n500select" onchange="nltk500()">
 </select>
 
 <p><img id="x" src="R-Files/Final/R-Plots/NLTK500/Topic0.png"></img>
+<div id="xtext">Yes</div>
 
 <p>Select a NLTK 250 word chunk plot: <select id="n250select" onchange="nltk250()">
   <option value="Topic 0">Topic 0
@@ -138,7 +137,6 @@ Select a NLTK 500 word chunk plot: <select id="n500select" onchange="nltk500()">
 </select>
 
 <p><img id="y" src="R-Files/Final/R-Plots/NLTK250/Topic0.png"></img>
-
 
 </div>
 
