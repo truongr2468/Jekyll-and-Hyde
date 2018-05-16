@@ -107,7 +107,7 @@ something.v <-which(hyde.words.v == "something")
 gallows.v <-which(hyde.words.v == "gallows")
 caged.v <-which(hyde.words.v == "caged")
 deposed.v <-which(hyde.words.v == "deposed")
-topic.five.v <-c(two.v, even.v, life.v, die.v, evil.v, pleasures.v, months.v, made.v, side.v, moral.v)
+topic.five.v <-c(divided.v, slumber.v, shape.v, within.v, hope.v, new.v, something.v, gallows.v, caged.v, deposed.v)
 five.count.v <-rep(NA,length(n.time.v))
 five.count.v[topic.five.v] <- 1
 plot(five.count.v, main="Dispersion plot of Topic 5 in Jekyll and Hyde", xlab="Novel Time", ylab="Topic 5", type="h", ylim=c(0,1), yaxt='n')
@@ -219,7 +219,7 @@ case.v <-which(hyde.words.v == "case")
 doom.v <-which(hyde.words.v == "doom")
 short.v <-which(hyde.words.v == "short")
 followed.v <-which(hyde.words.v == "followed")
-topic.twelve.v <-c(hands.v, fled.v, narrative.v, destoryed.v, seal.v, disappearance.v, case.v, doom.v, short.v, followed.v)
+topic.twelve.v <-c(hands.v, fled.v, narrative.v, destroyed.v, seal.v, disappearance.v, case.v, doom.v, short.v, followed.v)
 twelve.count.v <-rep(NA,length(n.time.v))
 twelve.count.v[topic.twelve.v] <- 1
 plot(twelve.count.v, main="Dispersion plot of Topic 12 in Jekyll and Hyde", xlab="Novel Time", ylab="Topic 12", type="h", ylim=c(0,1), yaxt='n')
@@ -257,7 +257,7 @@ fourteen.count.v[topic.fourteen.v] <- 1
 plot(fourteen.count.v, main="Dispersion plot of Topic 14 in Jekyll and Hyde", xlab="Novel Time", ylab="Topic 14", type="h", ylim=c(0,1), yaxt='n')
 
 ##Create Plot for Topic 15##
-cheque <-which(hyde.words.v == "cheque")
+cheque.v <-which(hyde.words.v == "cheque")
 gentleman.v <-which(hyde.words.v == "gentleman")
 presently.v <-which(hyde.words.v == "presently")
 pounds.v <-which(hyde.words.v == "pounds")
